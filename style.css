@@ -95,6 +95,11 @@ body{
     color: #fff;
     font-weight: 300;
 }
+
+.contactInfo ul li span a{
+    color: #fff;
+    font-weight: 300;
+}
 .contactInfo.education li{
     margin-bottom: 15px;
 }
@@ -129,7 +134,7 @@ body{
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 p{
     color: #333;
@@ -144,18 +149,20 @@ p{
   
   .row {
     color: #003147;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .projects .row{
-    line-height: 2;
+    line-height: 1.8;
   }
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
+
   }
+  
   .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -164,13 +171,15 @@ p{
     list-style: none;
     color:#003147;
     font-weight: 500;
-    margin: 10px 0;
+    margin: 8px 0;
   }
   .interest ul li .fa{
     color:#333;
     font-size: 18px;
     width: 20px;
   }
+ 
+
 
   @media(max-width: 1000px){
     .container{
