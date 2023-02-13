@@ -119,9 +119,11 @@ body{
 }
 .about{
     margin-bottom: 50px;
+    
 }
 .about:last-child{
     margin-bottom: 0;
+
 }
 .title2{
     color: #003147;
@@ -143,6 +145,10 @@ p{
   .row {
     color: #003147;
     margin-bottom: 10px;
+  }
+
+  .projects .row{
+    line-height: 2;
   }
   /* Clear floats after the columns */
   .row:after {
