@@ -155,6 +155,10 @@ p{
   .projects .row{
     line-height: 1.8;
   }
+  .projects .row li a{
+    color: #003147;
+  }
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
